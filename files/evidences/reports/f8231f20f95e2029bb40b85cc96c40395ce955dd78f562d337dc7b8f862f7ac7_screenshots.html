@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Test automatization(SIIGO)</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="9d5e04f5d05267e6d12491088946e7822aaadb6bc640bc7b83a69ed5e59001ae.html">Prueba Siigo</a></span>
+                > <span class="truncate-60"><a
+                    href="f8231f20f95e2029bb40b85cc96c40395ce955dd78f562d337dc7b8f862f7ac7.html">Agregar Producto a la bolsa </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="306274588be4a83d0141672fc756f5674bc978a11388acfd90709f1d712b2c3f.html"><i class="fa fa-comments-o"></i> Modulos</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-11-2021 17:10</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Prueba Siigo </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1397e8c7537722f9c7b1df491b38af22b0a9d3b0ba2fe7c0cdae51c36d1c1489.html">Add Bag Product
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="c12677c1fe4b29044da2eebad9104bd553f12eab2cbf8de25e448bee0dbf0891.html">Page Falabella
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Agregar Producto a la bolsa
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="f353caf9ca2465b3d76ff92bbf597f0de091b86ab2b2ed9dbcee465fdb0a7480.png" title=" Given I want to login to web page FALABELLA" width="1370"/>
+                <img src="f353caf9ca2465b3d76ff92bbf597f0de091b86ab2b2ed9dbcee465fdb0a7480.png" title=" Xm open falabella" width="1370"/>
+                <img src="f353caf9ca2465b3d76ff92bbf597f0de091b86ab2b2ed9dbcee465fdb0a7480.png" title=" Xm opens the https://www.falabella.com.co/falabella-co" width="1370"/>
+                <img src="5b37975fc5991755a978b9f185f39bbe1800522ceacf8bf56f68e9db988040cd.png" title=" Xm opens the https://www.falabella.com.co/falabella-co (completed)" width="1370"/>
+                <img src="5b37975fc5991755a978b9f185f39bbe1800522ceacf8bf56f68e9db988040cd.png" title=" Xm open falabella (completed)" width="1370"/>
+                <img src="5b37975fc5991755a978b9f185f39bbe1800522ceacf8bf56f68e9db988040cd.png" title=" Xm login" width="1370"/>
+                <img src="5b37975fc5991755a978b9f185f39bbe1800522ceacf8bf56f68e9db988040cd.png" title=" Xm clicks on Close Alert" width="1370"/>
+                <img src="aceb2b898d2ce3009e051d610be81ca4cd61330573fd6b06a8e7e88ea26fd50a.png" title=" Xm clicks on Close Alert" width="1370"/>
+                <img src="aceb2b898d2ce3009e051d610be81ca4cd61330573fd6b06a8e7e88ea26fd50a.png" title=" Xm clicks on Close Alert (completed)" width="1370"/>
+                <img src="aceb2b898d2ce3009e051d610be81ca4cd61330573fd6b06a8e7e88ea26fd50a.png" title=" Xm clicks on Login" width="1370"/>
+                <img src="0ad9004d0a0cd075ffc1ae7ee59bbeab920f095729827713d37d6bfc7958cc07.png" title=" Xm clicks on Login" width="1370"/>
+                <img src="0ad9004d0a0cd075ffc1ae7ee59bbeab920f095729827713d37d6bfc7958cc07.png" title=" Xm clicks on Login (completed)" width="1370"/>
+                <img src="0ad9004d0a0cd075ffc1ae7ee59bbeab920f095729827713d37d6bfc7958cc07.png" title=" Xm enters 'pruebsiigo@gmail.com' into Name user" width="1370"/>
+                <img src="9c52df5f5641d4c026ebf34532e1feebd25fe58521feb4a4b83ba42f54175749.png" title=" Xm enters 'pruebsiigo@gmail.com' into Name user" width="1370"/>
+                <img src="9c52df5f5641d4c026ebf34532e1feebd25fe58521feb4a4b83ba42f54175749.png" title=" Xm enters 'pruebsiigo@gmail.com' into Name user (completed)" width="1370"/>
+                <img src="9c52df5f5641d4c026ebf34532e1feebd25fe58521feb4a4b83ba42f54175749.png" title=" Xm enters 'J12345678*' into Password user" width="1370"/>
+                <img src="b7c3facb53f784183df6751884830ad49c97309a85d83193f6a76167ea5df171.png" title=" Xm enters 'J12345678*' into Password user" width="1370"/>
+                <img src="b7c3facb53f784183df6751884830ad49c97309a85d83193f6a76167ea5df171.png" title=" Xm enters 'J12345678*' into Password user (completed)" width="1370"/>
+                <img src="b7c3facb53f784183df6751884830ad49c97309a85d83193f6a76167ea5df171.png" title=" Xm clicks on Button admit" width="1370"/>
+                <img src="cff3254a73b8b41fa81498804ed46b6ad6b44c262772d3861549b7edb14ee028.png" title=" Xm clicks on Button admit" width="1370"/>
+                <img src="cff3254a73b8b41fa81498804ed46b6ad6b44c262772d3861549b7edb14ee028.png" title=" Xm clicks on Button admit (completed)" width="1370"/>
+                <img src="cff3254a73b8b41fa81498804ed46b6ad6b44c262772d3861549b7edb14ee028.png" title=" Xm clicks on Close Form" width="1370"/>
+                <img src="ba8336a677f384ce60459dbc9d48e51d2edb89a5d96002023e259cfeea116405.png" title=" Xm clicks on Close Form" width="1370"/>
+                <img src="ba8336a677f384ce60459dbc9d48e51d2edb89a5d96002023e259cfeea116405.png" title=" Xm clicks on Close Form (completed)" width="1370"/>
+                <img src="ba8336a677f384ce60459dbc9d48e51d2edb89a5d96002023e259cfeea116405.png" title=" Xm login (completed)" width="1370"/>
+                <img src="ec608952428abcd68b44b5f714c0aec2c4c242d74cf5ee41ef32ff60fdb92dc9.png" title=" Given I want to login to web page FALABELLA (completed)" width="1370"/>
+                <img src="04fc6998e253ea497a1962f22417a2aee6d0a301da06ca8f6cdf518bddde08d8.png" title=" When I add a product to the bag" width="1370"/>
+                <img src="04fc6998e253ea497a1962f22417a2aee6d0a301da06ca8f6cdf518bddde08d8.png" title=" Xm add bag product task" width="1370"/>
+                <img src="04fc6998e253ea497a1962f22417a2aee6d0a301da06ca8f6cdf518bddde08d8.png" title=" Xm enters 'PS4' into TXT_SEARCH" width="1370"/>
+                <img src="04fc6998e253ea497a1962f22417a2aee6d0a301da06ca8f6cdf518bddde08d8.png" title=" Xm enters 'PS4' into TXT_SEARCH (completed)" width="1370"/>
+                <img src="6faec1fa10f2d1b628641a562484b759acb0bfd50cf31b0d30b0ecd1d6dc7406.png" title=" Xm clicks on BTN_SEARCH" width="1370"/>
+                <img src="90bb5ed6dee7b73691bb01f78ab28ed0aa9e0e74844cd6a375d9bb1e536ac58a.png" title=" Xm clicks on BTN_SEARCH" width="1370"/>
+                <img src="90bb5ed6dee7b73691bb01f78ab28ed0aa9e0e74844cd6a375d9bb1e536ac58a.png" title=" Xm clicks on BTN_SEARCH (completed)" width="1370"/>
+                <img src="683881767102a4618c4731d4f750087739398df53d40ae6bd7cbbe7ca6b1d9d1.png" title=" Xm clicks on BTN_ADDBAG" width="1370"/>
+                <img src="072c595081f0e879973681e792a06aebb0a468fafa096f779f1ea12513bb451a.png" title=" Xm clicks on BTN_ADDBAG" width="1370"/>
+                <img src="072c595081f0e879973681e792a06aebb0a468fafa096f779f1ea12513bb451a.png" title=" Xm clicks on BTN_ADDBAG (completed)" width="1370"/>
+                <img src="072c595081f0e879973681e792a06aebb0a468fafa096f779f1ea12513bb451a.png" title=" Xm clicks on BTN_NEXTBUY" width="1370"/>
+                <img src="ef5bba66105a57f349832b60afe12301e8122374af09846b5770df8aa0e7e7a9.png" title=" Xm clicks on BTN_NEXTBUY" width="1370"/>
+                <img src="ef5bba66105a57f349832b60afe12301e8122374af09846b5770df8aa0e7e7a9.png" title=" Xm clicks on BTN_NEXTBUY (completed)" width="1370"/>
+                <img src="ef5bba66105a57f349832b60afe12301e8122374af09846b5770df8aa0e7e7a9.png" title=" Xm add bag product task (completed)" width="1370"/>
+                <img src="ef5bba66105a57f349832b60afe12301e8122374af09846b5770df8aa0e7e7a9.png" title=" When I add a product to the bag (completed)" width="1370"/>
+                <img src="a05e7cc30789f46ea51f6f957aabf2c0f4d2672b094d24c8e6573e418fed3c65.png" title=" Then I validate that the product was added to the bag" width="1370"/>
+                <img src="a05e7cc30789f46ea51f6f957aabf2c0f4d2672b094d24c8e6573e418fed3c65.png" title=" Xm verify add bag product task" width="1370"/>
+                <img src="a05e7cc30789f46ea51f6f957aabf2c0f4d2672b094d24c8e6573e418fed3c65.png" title=" Xm clicks on BTN_BAG" width="1370"/>
+                <img src="435f6deb7b94ffed6785d6a6da6b78e10e0ead9dd01c36350fc1f696666ef6ca.png" title=" Xm clicks on BTN_BAG" width="1370"/>
+                <img src="435f6deb7b94ffed6785d6a6da6b78e10e0ead9dd01c36350fc1f696666ef6ca.png" title=" Xm clicks on BTN_BAG (completed)" width="1370"/>
+                <img src="435f6deb7b94ffed6785d6a6da6b78e10e0ead9dd01c36350fc1f696666ef6ca.png" title=" Xm verify add bag product task (completed)" width="1370"/>
+                <img src="435f6deb7b94ffed6785d6a6da6b78e10e0ead9dd01c36350fc1f696666ef6ca.png" title=" Then I validate that the product was added to the bag (completed): <span class='success-color'>SUCCESS</span>" width="1370"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
